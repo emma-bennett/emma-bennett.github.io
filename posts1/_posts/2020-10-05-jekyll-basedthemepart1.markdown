@@ -4,7 +4,7 @@ layout: post
 date:   2020-05-11 19:40:00 -0400
 title: setting up jekyll-based theme (part 1)                                # Title of the page
 feature-img: "img/commandprompt.jpg"                        # Add a feature-image to the post
-thumbnail: "commandprompt.jpg"
+thumbnail: "img/commandprompt.jpg"
 tags: [jekyll website design]
 excerpt_separator: <!--more-->
 
