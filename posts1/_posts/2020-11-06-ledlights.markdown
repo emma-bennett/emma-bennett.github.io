@@ -4,6 +4,7 @@ title:  "alexa-controlled led light strip review"
 date:   2020-06-10 12:00:00 -0400
 tags: [aesthetics]
 excerpt_separator: <!--more-->
+published : false
 ---
 
 Recently, I received super cool led lights that came with a Wireless Smart Controller which allows me to control the lights by an app or Amazon Echo. In this post I will be highlighting some features that I do and don't like.
