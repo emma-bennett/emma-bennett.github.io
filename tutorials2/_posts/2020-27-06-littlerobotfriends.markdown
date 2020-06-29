@@ -12,4 +12,4 @@ This article focuses on the process of assembling and coding the <i>Little Robot
   <!--more-->
   
   <h4>What you need:</h4>
-  - Little Robot Friends Kit (at this link!)
+  - Little Robot Friends Kit ([at this link!](https://littlerobotfriends.com/collections/all))
