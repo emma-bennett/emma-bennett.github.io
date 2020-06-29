@@ -42,7 +42,7 @@ collections:
 
 
 # Build settings
-theme: type-on-strap
+remote_theme: sylhare/type-on-strap
 plugins:
   - jekyll-feed
   - jekyll-paginate
