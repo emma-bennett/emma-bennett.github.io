@@ -2,8 +2,8 @@
 layout: post
 title:  "formatting your jekyll theme (part 2)"
 date:   2020-06-03 12:00:00 -0400
-tags: [jekyll website design]
 thumbnail: "img/formatting.jpg"
+tags: [jekyll website design]
 excerpt_separator: <!--more-->
 ---
 
