@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "alexa-controlled led light strip review"
-date:   2020-07-01 12:00:00 -0400
+date:   2020-06-30 12:00:00 -0400
 tags: [aesthetics]
 thumbnail: "img/ledlight1.jpg"
 excerpt_separator: <!--more-->
