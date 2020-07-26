@@ -15,8 +15,9 @@ This article focuses on the process of assembling and coding the <i>Little Robot
   - Little Robot Friends Kit ([at this link!](https://littlerobotfriends.com/collections/all))
   - soldering iron
   - solder
-  - multimeter (optional, but very useful!)
+  - pliers
   - tape
+  - multimeter (optional, but very useful!)
   
 <h4>Assembling your robot:</h4>
 Take all of the components out of the Little Robot Friends kit and set them out on the table. It's really useful to
@@ -24,9 +25,15 @@ Take all of the components out of the Little Robot Friends kit and set them out 
 
 ![Step #1](/img/step1.png){:class="img-responsive"}
 Twirl the metal spring into the holes on the top of your robot's main body. Solder both ends and cut off the excess
- metal.
+ metal. The ends are definitely spiky so using pliers might be a good move. Finally, be patient in screwing it in the
+  holes as it is difficult to be forced.
 
 ![Step #2](/img/step2.png){:class="img-responsive"}
+Pull the two LEDs in the kit carefully through the two eye holes. With only your hands, you will probably only have
+ success pulling it about 2/3 of the way through. In order to get the LEDs snug against the board, take a pair of
+  pliers and slowly make back and forth motions (pulling and pushing) to pull it completely through.
+
+![Step #2](/img/step3.png){:class="img-responsive"}
 
 
   
