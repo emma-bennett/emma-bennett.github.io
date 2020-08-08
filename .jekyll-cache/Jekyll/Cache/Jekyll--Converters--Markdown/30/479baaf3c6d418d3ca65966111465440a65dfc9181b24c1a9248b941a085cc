@@ -1,0 +1,34 @@
+I"F
+<p>This is my first website using the Jekyll plug-in. I’ll be walking you through the steps to create a fully-functioning website using a Gem-based theme. On this particular website I used the <a href="https://github.com/sylhare/Type-on-Strap">type-on-strap theme</a>.</p>
+
+<!--more-->
+<p>Things you need:</p>
+<ul>
+  <li>access to a command prompt</li>
+  <li><a href="https://jekyllrb.com/docs/installation/">Ruby environment</a></li>
+</ul>
+
+<p>Now you’re going to want to install Jekyll and bundler gems to your Ruby environment. You can do this by going to the command prompt and typing in the following:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span> <span class="n">bundler</span>
+<span class="n">jekyll</span> <span class="n">new</span> <span class="n">myblog</span>
+<span class="n">cd</span> <span class="n">myblog</span>
+<span class="n">bundle</span> <span class="nb">exec</span> <span class="n">jekyll</span> <span class="n">serve</span>
+<span class="c1"># Browse to http://localhost:4000</span></code></pre></figure>
+
+<p>This should set up a website using the default jekyll theme: minima. Upon looking into the folder you created in your directory named “myblog”, pay close attention to two files: 1) _config.yml 2) Gemfile</p>
+
+<p>Now, we are going to browse for a theme. <a href="https://jekyllthemes.io/free">Jekyll Themes</a> allows you to browse through a multitude of free themes.</p>
+
+<p><img src="/img/jekyllthemepreview.png" alt="Jekyll Theme" class="img-responsive" /></p>
+
+<p>Here, you can scroll through multiple demos of these themes and find one that you like. Let’s say I like the theme type-on-strap. Go to <a href="https://rubygems.org/">rubygems.org</a> and search for the theme that you want.</p>
+
+<p>A screen like this should show up. The code I circled is what you should substitute for in your Gemfile (gem “type-on-strap”). In your _config.yml file you should substitute “type-in-strap” instead of “minima” after the “theme:”.
+<img src="/img/themegemfile.png" alt="Gemfile install" class="img-responsive" /></p>
+
+<p>Finally, look at the command I circled below to get an idea of what to put in your command prompt. Find the folder “myblog” in your directory and under it enter in the code circled. This should install the theme you want.
+<img src="/img/themeinstall.png" alt="Theme install" class="img-responsive" /></p>
+
+<p>Now when you go to your local host you should see your website with your newly installed theme. Thanks for reading!</p>
+:ET

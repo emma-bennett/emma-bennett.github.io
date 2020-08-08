@@ -1,0 +1,65 @@
+I"E<p>Now, once we have a fully functioning website there are a couple steps to take to customize it to become your own. There are going to be multiple different folders which Jekyll uses to organize the different elements of your website. <!--more--> 
+In this post, I’ll be walking you through the main components of a Jekyll website (Remember that this may vary slightly based on which theme you have chosen for yourself).</p>
+
+<h4>1) _Config.yml </h4>
+<p>This file should include all of the customization of your home page.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">title:
+email: 
+description: </span><span class="o">&gt;-</span> <span class="c1"># this means to ignore newlines until "baseurl:"</span>
+  <span class="n">home</span>
+<span class="ss">baseurl: </span><span class="s2">""</span> <span class="c1"># the subpath of your site, e.g. /blog</span>
+<span class="ss">url: </span><span class="s2">""</span> <span class="c1"># the base hostname &amp; protocol for your site, e.g. http://example.com</span>
+<span class="ss">header_text:
+header_feature_image: </span></code></pre></figure>
+
+<p>Most of these are self-explanatory. The header_text and header_feature_image are quite cool. This is specifically for the type-on-strap theme I use where a huge banner lays across your screen and you can change the image or the text displayed on it.</p>
+
+<h4>2) Layouts and Includes</h4>
+<p>Layouts are the base of your website. Some different layouts may include your home page, a page that displays all of your posts, or the page that includes a search bar. Layouts take bits and pieces of _includes html files in order to piece themselves together. The example below is for a normal page that displays all posts on it. The actual code for “blog.html” is not shown, but the code is meant to show how a layout html page interacts with an _includes html page.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">---</span>
+<span class="ss">layout: </span><span class="n">default</span>
+<span class="o">---</span>
+
+<span class="kp">include</span> <span class="n">blog</span><span class="p">.</span><span class="nf">html</span></code></pre></figure>
+
+<p>Most layouts rely on bits of _includes html files in order to display. Includes files are like the header, footer, each post, search bar, etc. All of your other files rely on these include files to get their html and css from. The example below displays the _includes code for a portfolio page.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;!--</span> <span class="no">Portfolio</span> <span class="no">Grid</span> <span class="no">Section</span> <span class="o">--&gt;</span>
+
+<span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"portfolio-grid"</span><span class="o">&gt;</span>
+    
+    <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"portfolio-cell"</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">a</span> <span class="k">class</span><span class="o">=</span><span class="s2">"portfolio-link"</span> <span class="n">data</span><span class="o">-</span><span class="n">keyboard</span><span class="o">=</span><span class="s2">"true"</span> <span class="n">href</span><span class="o">=</span><span class="s2">"/portfolio/compsci"</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"caption"</span> <span class="n">title</span><span class="o">=</span><span class="s2">"comp sci tutorial videos"</span><span class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"caption-content"</span><span class="o">&gt;</span>
+                    <span class="o">&lt;</span><span class="n">i</span> <span class="k">class</span><span class="o">=</span><span class="s2">"fa fa-search-plus fa-3x"</span><span class="o">&gt;&lt;</span><span class="sr">/i&gt;
+                &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="sr">/div&gt;
+            &lt;img alt="" class="" src="/im</span><span class="n">g</span><span class="o">/</span><span class="n">compsci</span><span class="p">.</span><span class="nf">png</span><span class="s2">"&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    
+&lt;/div&gt;</span></code></pre></figure>
+
+<h4>3) Posts</h4>
+<p>Posts are in their own folder. When you add another markdown file to the folder with the correct post formatting, Jekyll automatically adds this file to your collection of posts.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">layout: </span><span class="n">post</span>
+<span class="ss">title:  </span><span class="s2">""</span>
+<span class="ss">date:  
+tags: </span><span class="c1"># tags you put here are the tags which this post would be listed under in the tags section</span>
+<span class="ss">excerpt_separator: </span><span class="o">&lt;!--</span><span class="n">more</span><span class="o">--&gt;</span></code></pre></figure>
+
+<p>A really smart aspect of posts that Jekyll includes is the excerpt separator. This allows you to place a marker of where you want the excerpt of your post (shown on the home page) to end.</p>
+
+<h4>4) Pages</h4>
+<p>Pages are the tabs that show up at the top of your webpage. Examples are projects, search, tags, etc. They are quite simple to set up, only needing the layout, name, and possibly a feature image.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">layout: </span><span class="n">page</span>
+<span class="ss">title: </span><span class="n">about</span>
+<span class="ss">permalink: </span><span class="sr">/about/</span>
+<span class="n">feature</span><span class="o">-</span><span class="ss">img: </span><span class="s2">""</span></code></pre></figure>
+
+:ET
