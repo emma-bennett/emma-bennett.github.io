@@ -9,7 +9,7 @@
   text-align: center;
   color: rose;
   background: $header-background-color no-repeat;
-  background-size: auto;
+  background-size: 120% auto;
 
   /* --- Responsive --- */
   @media screen and (min-width: $break) {
