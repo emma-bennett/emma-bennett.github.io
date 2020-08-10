@@ -4,12 +4,22 @@ title: about
 permalink: /about/
 feature-img: "img/pastel.jpg"
 ---
-Hi, my name is Emma Bennett. I am a rising sophomore at NCS. I participate in debate, cyberpatriot, XC
-, and squash. In my free time, I love reading and taking photos :)
 
-<img src="/img/profile.jpg" alt="profile" align=”right” width="500"/>
+<div class="row">
+  <div class="column">
+  Hi, my name is Emma Bennett. I am a rising sophomore at NCS. I participate in debate, cyberpatriot, XC
+  , and squash. In my free time, I love reading and taking photos :)
+  
+  My instagram is [here](https://www.instagram.com/emma.bbennett/). My github is [here](https://github.com/emma-bennett).
 
-My instagram is [here](https://www.instagram.com/emma.bbennett/). My github is [here](https://github.com/emma-bennett).
+  </div>
+  <div class="column">
+  <img src="/img/profile.jpg" alt="profile" width="500"/>
+  
+  </div>
+</div>
+
+
 
 ---
 
