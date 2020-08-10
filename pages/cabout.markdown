@@ -7,16 +7,13 @@ feature-img: "img/blueback.jpeg"
 
 <div class="row">
   <div class="column">
-  Hi, my name is Emma Bennett. I am a rising sophomore at NCS. I participate in Public Forum debate, cyberpatriot
+  Hi, my name is Emma Bennett. I am a rising sophomore at NCS. I participate in Public Forum debate, Cyberpatriot
   , Cross-Country, and squash. In my free time, I love baking, reading mysteries or historical fiction, and taking
    photos :)
 
   </div>
-  <div class="column">
-  
-  </div>
     <div class="column">
-          <img src="/img/profile.jpg" alt="profile"/>
+          <img src="/img/profile.jpg" alt="profile" width="150"/>
     </div>
 </div>
 
