@@ -10,11 +10,12 @@ feature-img: "img/pastel.jpg"
   Hi, my name is Emma Bennett. I am a rising sophomore at NCS. I participate in debate, cyberpatriot, XC
   , and squash. In my free time, I love reading and taking photos :)
   
-  My instagram is [here](https://www.instagram.com/emma.bbennett/). My github is [here](https://github.com/emma-bennett).
+  My instagram is <a href="https://www.instagram.com/emma.bbennett/>here</a>. My github is <a href="https://github
+  .com/emma-bennett>here</a>.
 
   </div>
   <div class="column">
-  <img src="/img/profile.jpg" alt="profile" width="500"/>
+  <img src="/img/profile.jpg" alt="profile" width="350"/>
   
   </div>
 </div>
