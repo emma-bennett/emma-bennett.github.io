@@ -5,7 +5,7 @@ permalink: /about/
 feature-img: "img/pastel.jpg"
 ---
 Hi. My name is Emma Bennett.
-![profile](/img/profile.jpg#thumbnail)
+<img src="/img/profile.jpg" alt="profile" width="200"/>
 
 My instagram is [here](https://www.instagram.com/emma.bbennett/). My github is [here](https://github.com/emma-bennett).
 
