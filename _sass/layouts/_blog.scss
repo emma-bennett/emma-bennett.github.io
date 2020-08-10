@@ -82,12 +82,10 @@
 
     }
 
-    .img-left {
-      float: left;
-      margin-right: 1em;
-      width: 50%;
-      height: 50%;
-    }
+    img[src*="#thumbnail"] {
+       width:50%;
+       height:50%;
+        }
 
     .post-img img {
       -moz-transition-timing-function: ease-out;
