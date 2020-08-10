@@ -9,9 +9,6 @@ feature-img: "img/pastel.jpg"
   <div class="column">
   Hi, my name is Emma Bennett. I am a rising sophomore at NCS. I participate in debate, cyberpatriot, XC
   , and squash. In my free time, I love reading and taking photos :)
-  
-  My instagram is <a href="https://www.instagram.com/emma.bbennett/>here</a>. My github is <a href="https://github
-  .com/emma-bennett>here</a>.
 
   </div>
   <div class="column">
