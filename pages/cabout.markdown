@@ -2,7 +2,7 @@
 layout: page
 title: about
 permalink: /about/
-feature-img: "img/pastel.jpg"
+feature-img: "img/blueback.jpeg"
 ---
 
 <div class="row">
