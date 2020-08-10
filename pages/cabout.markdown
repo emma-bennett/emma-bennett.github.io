@@ -13,7 +13,7 @@ feature-img: "img/blueback.jpeg"
 
   </div>
   <div class="column">
-  <img src="/img/profile.jpg" alt="profile" height="50%"/>
+  <img src="/img/profile.jpg" alt="profile" height="50%" width="50%"/>
   
   </div>
 </div>
