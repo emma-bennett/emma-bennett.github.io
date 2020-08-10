@@ -4,8 +4,8 @@ title: about
 permalink: /about/
 feature-img: "img/pastel.jpg"
 ---
-Hi. My name is Emma Bennett.
-<img src="/img/profile.jpg" alt="profile" width="750"/>
+<p align=left>Hi, my name is Emma Bennett.</p>
+<img src="/img/profile.jpg" alt="profile" width="500"/>
 
 My instagram is [here](https://www.instagram.com/emma.bbennett/). My github is [here](https://github.com/emma-bennett).
 
