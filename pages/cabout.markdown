@@ -19,7 +19,14 @@ I've been making websites ranging from a simple html sites to websites using Sem
  school. The design and intricacy of coding these sites has always interested me and I love how there are always ways
   to improve or make the site even better. Finally, I also really enjoy sharing pictures and articles about projects I
    have been working on.
-   
+
+<br><br>
+<b>What kind of posts would you expect in the future?</b>
+<br>
+Currently, my main project is continuing to think of and create easy-to-follow, very accessible computer science
+ tutorials for younger students. I hope to convey fun projects in a very creative and interesting way. Also, as
+  another project on the side, I am in the process of creating a cooking page with a collage of pictures of all of
+   the food I have made with links to the original recipes.
    
   </div>
     <div class="column">
