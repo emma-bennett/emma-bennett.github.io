@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   home
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-header_text: welcome
-header_feature_image: img/starfieldsimulation.gif
+header_text:
+header_feature_image: img/homestrip.jpg
 
 avatar: img/logo.jpg
 excerpt: true
