@@ -11,6 +11,16 @@ feature-img: "img/blueback.jpeg"
   , Cross-Country, and squash. In my free time, I love baking, reading mysteries or historical fiction, and taking
    photos :)
 
+<br>
+<br>
+<b>What inspired me to make this site?</b>
+<br>
+I've been making websites ranging from a simple html sites to websites using Semantic UI since elementary
+ school. The design and intricacy of coding these sites has always interested me and I love how there are always ways
+  to improve or make the site even better. Finally, I also really enjoy sharing pictures and articles about projects I
+   have been working on.
+   
+   
   </div>
     <div class="column">
           <img src="/img/profile.jpg" alt="profile" width="150"/>
