@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "creating jekyll post directories (part 3)"
-date:   2020-08-11 12:00:00 -0400
+date:   2021-02-03
 tags: [jekyll website design]
 thumbnail: "img/directories.jpeg"
 excerpt_separator: <!--more-->
@@ -21,6 +21,6 @@ Let's imagine a scenario. You want one page to display posts about Topic A and t
  
      The line to add is the following:
      
-     <code> {% for post in site.categories.posts1 %} </code>
-     
+     {% for post in site.categories.posts1 %}
+   
      What this does is it says to format each of the posts in a speicifc posts directory (in this case posts1).
