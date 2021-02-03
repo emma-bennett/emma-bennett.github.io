@@ -19,8 +19,7 @@ Let's imagine a scenario. You want one page to display posts about Topic A and t
 2.  Within the _includes files (where the html of how your individual pages are generated resides), add a line to the
  top that specifies where you want your page to get its posts from.
  
-     The line to add is the following:
-     
-     "{% for post in site.categories.posts1 %}" 
-       
-     What this does is it says to format each of the posts in a speicifc posts directory (in this case posts1).
+ The line to add is the following:
+  
+  What this does is it says to format each of the posts in a speicifc posts
+  directory (in this case posts1).
