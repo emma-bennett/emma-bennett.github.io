@@ -1,6 +1,6 @@
 ---
 layout: plantbot
 title: plant bot
-img: "img/plantbot.png"
-date: March 31 2021
+img: "img/plantbot.jpeg"
+date: March 29 2021
 ---
