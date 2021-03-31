@@ -31,3 +31,8 @@ Let's imagine a scenario. You want one page to display posts about Topic A and t
   
   *coding tid-bit* - the above format actually follows that of a for-each loop where it looks at every object in the
    'site.portfolio' folder and formats each into its own blog post.
+   
+The upside to having multiple different directories is that they all still work in the search bar and also work as
+ their own filtered tags automatically, but it is easier to accumulate more alike posts together on the same page.
+ 
+ Hopefully you are now comfortable creating different Jekyll directories! Thanks for reading.
