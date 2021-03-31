@@ -21,5 +21,13 @@ Let's imagine a scenario. You want one page to display posts about Topic A and t
  
  The line to add is the following:
   
-  What this does is it says to format each of the posts in a speicifc posts
+{% highlight ruby %}
+"for post in site.portfolio"
+#surround the above statement with % signs
+{% endhighlight %}
+  
+  What this does is it says to format each of the posts in a specific posts
   directory (in this case posts1).
+  
+  *coding tid-bit* - the above format actually follows that of a for-each loop where it looks at every object in the
+   'site.portfolio' folder and formats each into its own blog post.
