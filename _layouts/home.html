@@ -39,6 +39,38 @@ div.slide-left p {
   }
 }
 
+.fade-in {
+animation: fadeIn ease 10s;
+-webkit-animation: fadeIn ease 10s;
+-moz-animation: fadeIn ease 10s;
+-o-animation: fadeIn ease 10s;
+-ms-animation: fadeIn ease 10s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
 </style>
 
 <div class="home">
@@ -46,8 +78,9 @@ div.slide-left p {
         HELLO</h1>
 </div>
 
+<div class="fade-in">
 <img src="../img/background.jpg" alt="background" style="width:100%">
-
+</div>
 
 <!--<div class="slide-left">
     <p style="font-family: Calibri, serif; font-size:15pt;font-weight:normal; font-style:bold"> hello! it's
