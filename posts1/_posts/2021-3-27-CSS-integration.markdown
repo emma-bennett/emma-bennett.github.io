@@ -12,7 +12,11 @@ This article will discuss the basic knowledge needed in order for one to integra
 
 <b>Let's start with the basics: Where exactly in your HTML file should your CSS reside?</b>
 
-An HTML file uses the {% highlight ruby %} <style> {% endhighlight %} tag to store the information on how HTML
+An HTML file uses the tag below to store the information on how HTML
  elements should render on your website. Within this style tag is where the values (color, size, font, etc.) you want
   to change should be declared.
+
+{% highlight ruby %} <style> here is where you would add any CSS code </style> {% endhighlight %}
+
+<b> So now that we've covered where the CSS resides, how is it formatted and implemented? </b>
 
