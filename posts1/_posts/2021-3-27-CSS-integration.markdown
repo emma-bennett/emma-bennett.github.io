@@ -10,7 +10,9 @@ published: true
 ---
 
 This article will discuss the basic knowledge needed in order for one to integrate CSS into bits of an HTML page. Examples include having an image fade in or having text slide onto the screen from right-to-left.
+
 <!--more-->
+
 <b>Let's start with the basics: Where exactly in your HTML file should your CSS reside?</b>
 
 An HTML file uses the tag below to store the information on how HTML
