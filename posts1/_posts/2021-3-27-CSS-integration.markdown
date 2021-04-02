@@ -4,6 +4,7 @@ title:  "CSS integration"
 date:   2021-03-27
 tags: [jekyll website design]
 thumbnail: "img/cssblog.jpg"
+feature-img: "img/cssblog.jpg"
 excerpt_separator: <!--more-->
 published: true
 ---
@@ -18,5 +19,19 @@ An HTML file uses the tag below to store the information on how HTML
 
 {% highlight ruby %} <style> here is where you would add any CSS code </style> {% endhighlight %}
 
+<br>
 <b> So now that we've covered where the CSS resides, how is it formatted and implemented? </b>
+
+For more straight-forward things like transforming text and margin height you use the name of the item (p, h1, h2
+, etc.) that you want to modify and in curly brackets put all of the different 'transformations'. An example is shown
+ below:
+ {% highlight ruby %}
+  h1{
+   text-align: center;
+   text-transform: uppercase;
+   color: #4CAF50;
+    margin-top: 0px;
+    margin-bottom: 0px;
+ }
+ {% endhighlight %}
 
